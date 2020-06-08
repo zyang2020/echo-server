@@ -1,3 +1,9 @@
+About the submited assignment:
+echo_client.py, echo_server.py and tests.py are  the first version of echo-server assignment, which includes the optional task 1 (Write a python function that lists the services provided by a given range of ports).
+echo_client_2.py, echo_server_2.py and tests_2.py are the second version of echo-server 
+assignment, which includes the optional task 2 (write a second version of the echo server that can handle multiple client connections in "parallel").
+
+
 Echo Server Homework
 ==================
 
