@@ -1,10 +1,15 @@
-from echo_client import client
+from echo_client import client, list_services
 import socket
 import unittest
 
 
 class EchoTestCase(unittest.TestCase):
     """tests for the echo server and client"""
+
+    def test_list_services(self):
+        """test list services for a given range of ports"""
+        num_services = list_services(0, 200)
+        self.assertEqual(num_services, 48)
 
     def send_message(self, message):
         """Attempt to send a message using the client
